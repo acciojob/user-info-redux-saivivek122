@@ -2,7 +2,7 @@
 import React from "react";
 import './../styles/App.css';
 import { useDispatch, useSelector } from "react-redux";
-import { addUserEmail, addUserName } from "./userSlice";
+import { addUserEmail, addUserName } from "./userSlice"; 
  
 const App = () => {
     const userName = useSelector((state) => state.user.name);
